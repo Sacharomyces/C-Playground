@@ -42,11 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Polimorphism\Elipse.cs" />
+    <Compile Include="Classes\Polimorphism\Position.cs" />
+    <Compile Include="Classes\Polimorphism\Rectangular.cs" />
+    <Compile Include="Classes\Polimorphism\Shape.cs" />
+    <Compile Include="Classes\Polimorphism\Size.cs" />
+    <Compile Include="Classes\Polimorphism\Square.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\Abstract\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
