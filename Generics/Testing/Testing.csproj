@@ -52,6 +52,8 @@
     <Compile Include="Tests\LingedListTestGeneric.cs" />
     <Compile Include="Tests\LingedListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\Inheritance.cs" />
+    <Compile Include="Tests\StaticDemoTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

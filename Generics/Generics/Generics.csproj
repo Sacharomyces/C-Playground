@@ -45,12 +45,17 @@
     <Compile Include="DocumentManager\Document.cs" />
     <Compile Include="DocumentManager\DocumentManager.cs" />
     <Compile Include="DocumentManager\IDocument.cs" />
+    <Compile Include="Inheritance\BaseClass.cs" />
+    <Compile Include="Inheritance\NonGenericDerivered.cs" />
+    <Compile Include="Inheritance\GenericDerivered.cs" />
     <Compile Include="LinkedList\Generic\LinkedListGen.cs" />
     <Compile Include="LinkedList\Generic\LinkedListNodeGen.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\LinkedListNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticMembers\StaticClass.cs" />
+    <Compile Include="StaticMembers\StaticMember.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

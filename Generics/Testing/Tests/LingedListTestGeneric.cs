@@ -1,11 +1,8 @@
-﻿
-using System;
-using Generics.LinkedList;
+﻿using System;
 using Generics.LinkedList.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
-namespace Testing
+namespace Testing.Tests
 {
     [TestClass]
     public class LingedListTestGen
